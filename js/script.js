@@ -32,4 +32,6 @@ function generateSquare(number){
         console.log("Numero cella" + number );
     })
     
+    //retorna 
+    return newSquare;
 }
