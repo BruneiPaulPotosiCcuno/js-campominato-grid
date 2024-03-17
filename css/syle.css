@@ -1,0 +1,42 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header-style*/
+
+.header-container{
+    background-color: aqua;
+    width: calc(100% / 2);
+    display: flex;
+    
+}
+
+.logo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+header{
+    background-color: red;
+    height: 90px;
+    display: flex;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 37px;
+}
+
+
+
+img{
+    height: 45px;
+}
