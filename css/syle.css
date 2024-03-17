@@ -8,17 +8,13 @@
 
 /*header-style*/
 
-.header-container{
-    background-color: aqua;
-    width: calc(100% / 2);
-    display: flex;
-    
-}
+
 
 .logo-img{
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
     margin: 20px;
     gap: 20px;
 }
@@ -27,6 +23,7 @@ header{
     background-color: red;
     height: 90px;
     display: flex;
+    justify-content: space-around;
 }
 
 h1{
@@ -40,3 +37,25 @@ h1{
 img{
     height: 45px;
 }
+
+/* buttom style*/
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    gap: 10px;
+
+}
+
+.btn {
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 17px;
+
+    padding: 3px 40px;
+
+  }
