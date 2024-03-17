@@ -17,3 +17,19 @@ btn.addEventListener('click', function() {
         mainGrid.appendChild(newSquare);
     }
 });
+
+//Creo la funzione per generare ogni cella della griglia
+function generateSquare(number){
+    //creo un div con lo square e il numero per ogni cella
+    const newSquare = document.createElement('div');
+    newSquare.classList.add('square');
+    newSquare.innerHTML = '<span>' + number + '</span>';
+
+    //aggiungo la cella l'evento click 
+    newSquare.addEventListener('click', function(){
+        this.classList.add('blue'); 
+        //Ogni cella clickata viene mostrata nel cl
+        console.log("Numero cella" + number );
+    })
+    
+}
