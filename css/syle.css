@@ -65,4 +65,28 @@ button{
 
   .bg-grid{
     background-color: #7fffd4;
+    padding: 20px;
   }
+
+#grid {
+    width: 800px;
+    height: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.square {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    background-color: #7fffd4;
+    border: 1px solid black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square.blue {
+    background-color: rgb(45, 73, 215);
+}
